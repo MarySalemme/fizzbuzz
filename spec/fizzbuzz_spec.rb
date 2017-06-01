@@ -13,6 +13,10 @@ require "fizzbuzz"
             expect(fizzbuzz(15)).to eq "fizzbuzz"     
         end
         
+        it "returns 19 when passed 19" do
+            expect(fizzbuzz(19)).to eq 19
+        end
+        
     end
     
     
